@@ -22,4 +22,6 @@ RUN apk add --update --no-cache \
          coreutils \
     && rm -rf /var/cache/apk/*
 
+COPY ./.bash* /root/.
+
 CMD ["/bin/bash"]
