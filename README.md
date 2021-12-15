@@ -9,6 +9,16 @@ docker run --rm -it tribal2/alpine-bash
 ```
 
 
+## 👨‍💻 Repo and building the image for local usage
+```bash
+git clone https://github.com/tribal2/alpine-bash.git
+cd alpine-bash
+chmod +x ./scripts/*
+
+./scripts/debug-build.sh
+```
+
+
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome.<br />
 Feel free to check [issues page](https://github.com/tribal2/alpine-bash/issues) if you want to contribute.<br />
