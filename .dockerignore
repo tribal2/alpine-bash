@@ -1,0 +1,8 @@
+.git
+.dockerignore
+.bumpversion.cfg
+.config.env
+Dockerfile
+LICENSE
+README.md
+scripts
